@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portal de Noticias Galaticas</title>
-    <link rel="stylesheet" href="./style/card.css">
-    <script src = "src/Components/CardNews.js" defer></script>
-    <script src = "src/Components/TituloDinamico.js" defer></script>
+    <title>PORTAL DE NOTICÍAS GALACTICA</title>
+    <link rel="stylesheet" href="styles/card.css">
+    <script src="src/Components/CardNews.js" defer></script>
+    <script src="src/Components/TituloDinamico.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <div class="card">
-            <div class="card__left">
-                <span>By Fabio Andre Zatta</span>
-                <h1>Darth Vader Contrata Devs</h1>
-                <p>Darth Vader procura desenvolvedor que sabem trabalhar com componetes </p>
-                <a href="#">Leia mais...</a>
-            </div>
-            <div class="card__right">
-                <img src="./assets/Darth-Vader-PNG-Image-File.png" alt="foto do dark veder"> 
-            </div>           
-        </div>
-    </div>
-    <card-news></card-news>
-    <titulo-dinamico titulo ="Portal de Noticias Galaticas"></titulo-dinamico>
+    <div class="app-root">
+        <card-news  autor="Felipe" title="Darth Vader Contrata" link-url="www.google.com" photo="./assets/Darth-Vader-PNG-Image-File.png" contet="Darth Vader procura desenvolvedores que sabem trabalhar com componentes."></card-news>
+
+        <card-news title="Yoda convence replubica a utilizar components" link-url="www.google.com/yoda" contet="Yoda se pronuncia e choca a republica."></card-news>
+
+        <card-news title="Yoda convence replubica a utilizar components" link-url="www.google.com/yoda" contet="Yoda se pronuncia e choca a republica."></card-news>
+
 </body>
 </html>
